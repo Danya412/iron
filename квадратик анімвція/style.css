@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+.div1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+.div1 {
+  animation-name: bounce;
+  animation-iteration-count: infinite;
+  animation: bounce 5s infinite normal both;
+  position: absolute;
+}
+@keyframes bounce {
+  0% {
+    background-color: aqua;
+    top: 10%;
+    left: 10%;
+  }
+
+  20% {
+    background-color: red;
+    top: 10%;
+    left: 20%;
+  }
+
+  40% {
+    background-color: blue;
+    top: 20%;
+    left: 20%;
+  }
+
+  60% {
+    background-color: green;
+    top: 20%;
+    left: 10%;
+  }
+  100% {
+    background-color: brown;
+    top: 10%;
+    left: 10%;
+  }
+}
